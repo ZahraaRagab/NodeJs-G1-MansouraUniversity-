@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Background Generator</h1>
+    <input type="color" value="#00ff00" class="green-input" id="button1" />
+    <input type="color" value="#0000ff" class="blue-input" id="button2" />
+    <button
+      id="generateButton"
+      onclick="generateRandomColor();"
+      class="color-button"
+    >
+      Generate
+    </button>
+    <button class="dark">Change to Dark mode</button>
+    <button class="light">Change to light mode</button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
