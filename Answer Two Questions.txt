@@ -1,0 +1,6 @@
+*How can js spport multiple inheritance?
+By mixins 
+mixins are a way to combine multiple objects or behaviors into a single object. You can create separate objects that encapsulate specific sets of properties and methods, and then mix them together to create a new object with combined functionality.
+---------------------------------------------------
+*static method can be overloaded but not override (explain)
+because override changes implementation in runtime not compile time and static method is solved in compile time 
